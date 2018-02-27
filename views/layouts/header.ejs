@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title><%= title %></title>
+			
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script> -->
+		<!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+		<style>
+		.navbar-fixed-top, .navbar-fixed-bottom {
+           position: fixed;
+           right: 0;
+           left: 0;
+		   z-index: 1030;
+		   background-color: midnightblue;
+
+		 }
+		 a{
+			 color: #cbdff0;
+		 }
+		</style>
+	</head>
+	<body>
+		
+		<!-- <link href="css/layout.css" rel="stylesheet" id=""> -->
+		  <nav class="navbar navbar-inverse2 navbar-fixed-top">
+			
+			  <ul class="nav navbar-nav">
+			
+				<li class=""><a href="/users"><span class="glyphicon glyphicon-home"></span> All Users List</a></li>
+				<li class=""><a href="/users/add"><span class="glyphicon glyphicon-user"></span> Add New User</a></li>
+				<li class="active"><a href="/" ><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				<li class=""><a href="/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>	
+			  </ul>
+		
+		  </nav>
+		  <br><br><br>	
+		<h1><%= title %></h1>
